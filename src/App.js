@@ -54,7 +54,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename="/2025-portfolio">
         <Box
           sx={{
             display: "flex",
